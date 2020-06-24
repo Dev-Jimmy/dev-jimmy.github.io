@@ -7,73 +7,70 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-  body {
-    font-family: "Roboto", sans-serif
-  }
-
-  .w3-bar-block .w3-bar-item {
-    padding: 16px;
-    font-weight: bold;
-  }
+    body {
+        font-family: "Roboto", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 16px;
+        font-weight: bold;
+    }
 </style>
 
 <body>
 
-  <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;"
-    id="mySidebar">
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
 
-    <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="https://dev-jimmy.github.io/">Mohamed Ibrahim
+        <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="https://dev-jimmy.github.io/">Mohamed Ibrahim
       610695</a>
-    <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i
+        <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i
         class="fa fa-remove"></i></a>
-    <a class="w3-bar-item w3-button w3-teal" href="https://dev-jimmy.github.io/">Home</a>
-    <ul>
-      <li> <a class="w3-bar-item w3-button" href="https://dev-jimmy.github.io/">Lab 1</a> </li>
+        <a class="w3-bar-item w3-button w3-teal" href="https://dev-jimmy.github.io/">Home</a>
+        <ul>
+            <li> <a class="w3-bar-item w3-button" href="https://dev-jimmy.github.io/">Lab 1</a> </li>
 
-      <li>Lab2<ul>
-          <li><a class="w3-bar-item w3-button" href="https://dev-jimmy.github.io/w1d2/aboutme.html">About me</a></li>
-          <li><a class="w3-bar-item w3-button" href="#">Recipe</a></li>
+            <li><a class="w3-bar-item w3-button" href="#">Lab2</a>
+                <ul>
+                    <li><a class="w3-bar-item w3-button" href="https://dev-jimmy.github.io/w1d2/aboutme.html">About me</a></li>
+                    <li><a class="w3-bar-item w3-button" href="#">Recipe</a></li>
+                </ul>
+            </li>
         </ul>
-      </li>
-    </ul>
-  </nav>
+    </nav>
 
-  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
-  </div>
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
+    </div>
 
-  <div class="w3-main" style="margin-left:250px;">
+    <div class="w3-main" style="margin-left:250px;">
 
-    <header class="w3-container w3-theme" style="padding:64px 32px">
-      <h1 class="w3-xxxlarge">Mohamed Ibrahim WAP Course Website</h1>
-    </header>
+        <header class="w3-container w3-theme" style="padding:64px 32px">
+            <h1 class="w3-xxxlarge">Mohamed Ibrahim WAP Course Website</h1>
+        </header>
 
-    <div class="w3-container" style="padding:32px">
-      <img alt="Mohamed Ibrahim"
-        src="https://avatars1.githubusercontent.com/u/28622116?s=460&u=6db2a9615d4d480b348044ae1bc1090a05f93077&v=4">
+        <div class="w3-container" style="padding:32px">
+            <img alt="Mohamed Ibrahim" src="https://avatars1.githubusercontent.com/u/28622116?s=460&u=6db2a9615d4d480b348044ae1bc1090a05f93077&v=4">
+
+        </div>
+
+        <footer class="w3-container w3-theme" style="padding:32px">
+            <a href="https://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a>
+
+        </footer>
 
     </div>
 
-    <footer class="w3-container w3-theme" style="padding:32px">
-      <a href="https://validator.w3.org/check/referer"> <img
-          src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a>
+    <script>
+        // Open and close the sidebar on medium and small screens
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
 
-    </footer>
-
-  </div>
-
-  <script>
-    // Open and close the sidebar on medium and small screens
-    function w3_open() {
-      document.getElementById("mySidebar").style.display = "block";
-      document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-      document.getElementById("mySidebar").style.display = "none";
-      document.getElementById("myOverlay").style.display = "none";
-    }
-
-  </script>
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
 
 </body>
 
