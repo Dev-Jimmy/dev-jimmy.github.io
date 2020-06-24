@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>About Me</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleme.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: "Roboto", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 16px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+
+        <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="https://dev-jimmy.github.io/">Mohamed Ibrahim
+            610695</a>
+        <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i
+                class="fa fa-remove"></i></a>
+        <a class="w3-bar-item w3-button w3-teal" href="https://dev-jimmy.github.io/">Home</a>
+
+    </nav>
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
+    </div>
+
+    <div class="w3-main" style="margin-left:250px;">
+
+        <header class="w3-container w3-theme" style="padding:64px 32px">
+            <h1 class="w3-xxxlarge">About Mohamed Ibrahim</h1>
+        </header>
+
+        <div class="w3-container" style="padding:32px">
+
+            <h2>Who am I?</h2>
+
+            <p class="txt-align-center">My name is Mohamed Ibrahim .I am <b>Egyptian</b> and work as a <b>software engineer</b>.</p>
+
+
+            <h2>My classes in MIU</h2>
+
+            <ul>
+                <li class="bluetxt">ASD</li>
+
+                <li class="redtxt">SWE</li>
+
+                <li class="serif">EA</li>
+
+                <li class="sansserif">BDT</li>
+
+                <li class="monospace">WAP</li>
+            </ul>
+
+            <h2>My favorite movies</h2>
+
+            <ol>
+                <li>The Dark Knight (2008) - (<a href="https://www.imdb.com/title/tt0468569/">IMDB</a>)</li>
+
+                <li>Inception (2010) - (<a href="https://www.imdb.com/title/tt1375666/">IMDB</a>)</li>
+
+                <li>Se7en (1995) - (<a href="https://www.imdb.com/title/tt0114369/">IMDB</a>)</li>
+
+            </ol>
+            <h2>My favorite movies</h2>
+
+            <div class="w3-card" style="width:50%">
+                <img src="https://lh3.googleusercontent.com/jGMwcx82BUPUB601QfLXqjGik4BroCVaHsrwLoo_-MJSpNoPxpWAkQJ9MfnRFg5LrMA" alt="Happy" style="width:100%">
+                <div class="w3-container">
+                    <h4><b>Happy</b></h4>
+                </div>
+            </div>
+            <div class="w3-card" style="width:50%">
+                <img src="https://static1.fjcdn.com/comments/That+makes+me+sad+_214b703cb54ac6b830bacd106d0714b8.jpg" alt="Sad" style="width:100%">
+                <div class="w3-container">
+                    <h4><b>Sad</b></h4>
+                </div>
+            </div>
+            <h2>My neighbors</h2>
+            <ul>
+                <li>First eighbor ,description</li>
+                <li>Second eighbor ,description</li>
+
+            </ul>
+        </div>
+
+        <footer class="w3-container w3-theme" style="padding:32px">
+            <a href="https://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a>
+
+        </footer>
+
+    </div>
+
+    <script>
+        // Open and close the sidebar on medium and small screens
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

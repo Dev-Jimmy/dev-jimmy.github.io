@@ -1,0 +1,23 @@
+.bluetxt {
+    color: blue;
+}
+
+.redtxt {
+    color: red;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.txt-align-center {
+    text-align: center;
+}
