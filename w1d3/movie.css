@@ -4,10 +4,21 @@ div {
     margin-bottom: 5px;
 }
 
+#a {
+    position: relative;
+    top: 100px;
+}
+
 #b {
     position: absolute;
     top: 0px;
     bottom: 0px;
     right: 0px;
     width: 200px;
+}
+
+#c {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
 }
