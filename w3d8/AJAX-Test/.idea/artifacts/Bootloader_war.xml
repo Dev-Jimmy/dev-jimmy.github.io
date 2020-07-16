@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Bootloader:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bootloader_war</output-path>
+    <root id="archive" name="bootloader.war">
+      <element id="artifact" artifact-name="AJAX-Test:war exploded" />
+    </root>
+  </artifact>
+</component>
